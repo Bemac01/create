@@ -20,19 +20,23 @@
 // write filtering in another traditional way 
 
 // create array of ages 
-let ages = [19,21,20,18,12]
+// let ages = [19,21,20,18,12]
 
 //adult array 
-let adults = []
+// let adults = []
 
-for (let i = 0; i < ages.length; i++) {
-    console.log(ages[i])
+// for (let i = 0; i < ages.length; i++) {
+//     console.log(ages[i])
     //check ages above 18 or 18 years old 
-    if ( ages[i] >=18 ) {
-        adults.push(ages[i])
-    }
+    // if ( ages[i] >=18 ) {
+    //     adults.push(ages[i])
+    // }
     //add filtered array to new array
-}
+// }
 
 //output new array filtered 
-console.log(adults)
+// console.log(adults)
+
+// DOM
+
+document.querySelector('h1').innerHTML = " WOrking well"
