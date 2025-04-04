@@ -39,4 +39,8 @@
 
 // DOM
 
-document.querySelector('h1').innerHTML = " WOrking well"
+let text = document.querySelector('h1').innerHTML = " WOrking well"
+
+let changeColor = () => {
+    document.querySelector('h1').style.color = 'red'
+}
